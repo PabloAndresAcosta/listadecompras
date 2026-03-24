@@ -8,6 +8,15 @@
 
 ---
 
+## Clarifications
+
+### Session 2026-03-24
+
+- Q: ¿Se requieren archivos de historia de usuario independientes por HU para uso como referencia de desarrollo? → A: Sí. Se crean 3 archivos `.md` independientes en `stories/`, uno por HU, con criterios de aceptación, requisitos, reglas de negocio, escenarios de prueba y notas de implementación por historia.
+- Q: ¿Se requiere un documento central con diagrama de casos de uso en formato Mermaid? → A: Sí. Se crea `overview.md` con diagramas Mermaid (casos de uso, estados, flujo de operaciones) y tabla de navegación a todas las historias.
+
+---
+
 ## 1. Vision & Purpose
 
 ### Problem Statement
@@ -34,6 +43,13 @@ Optimizar la experiencia de compra mediante la creación ágil de listas y la re
 ---
 
 ## 3. User Stories
+
+> 📂 **Referencia rápida para desarrolladores**: Cada historia tiene su propio archivo detallado en la carpeta `stories/`:
+> - [HU-01 — Creación de Lista desde Cero](./stories/HU-01-crear-lista.md)
+> - [HU-02 — Clonación Basada en Historial](./stories/HU-02-clonar-historial.md)
+> - [HU-03 — Gestión del Ciclo de Vida](./stories/HU-03-ciclo-de-vida.md)
+>
+> 🗺️ **Vista global con diagramas Mermaid**: [overview.md](./overview.md)
 
 ### HU-01: Creación de Lista desde Cero
 **Como** usuario del hogar
